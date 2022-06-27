@@ -12,6 +12,7 @@
 body {
     border:solid 5px #0A0903;
     background: #478978;
+    
 }
 
 /*barra superior do site*/
@@ -37,22 +38,21 @@ header nav a{
     text-decoration: none; 
 }
 header .menu{
-    
-    margin-top: 50px;
-     
+  margin-left: 3em;
 }
 .menu .button{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(5, 5, 5, 0);
     border-style:none;
-    margin-left: 90px;
+    margin-left: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    text-transform:capitalize;
-    cursor: pointer;
+
+    margin-top: 3em;
 }
 .botao {
      font-size: x-large;
      color: rgb(255, 255, 255);
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     cursor: pointer;
  }
 .menu .botao:hover{
     color: rgb(252, 206, 1);
